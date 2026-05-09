@@ -1,0 +1,29 @@
+{
+  "name": "cthulhu-game-engine",
+  "version": "1.0.0",
+  "description": "A text-based Cthulhu-themed adventure game engine",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "cthulhu",
+    "game",
+    "adventure",
+    "text-based"
+  ],
+  "author": "wwy55555",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0"
+  }
+}
